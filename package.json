@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.23",
     "css-loader": "^6.10.0",
     "esbuild-loader": "^4.1.0",
     "fork-ts-checker-webpack-plugin": "^9.0.2",
@@ -21,5 +23,9 @@
     "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "react": "^19.0.0-canary-48ec17b86-20240402",
+    "react-dom": "^19.0.0-canary-48ec17b86-20240402"
   }
 }
